@@ -51,7 +51,7 @@ public class App
             else if (command.equals("exit"))
             {
                 shelf.saveToFile();
-                System.out.println("Goodbye!");
+                System.out.println("Goodbye! See ya");
                 break;
             }
             else
