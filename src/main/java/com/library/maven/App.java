@@ -38,7 +38,7 @@ public class App
                 books = shelf.showBooks();
                 if (books.isEmpty())
                 {
-                    System.out.println("Sorry, we're out of books right now! Get lost!");
+                    System.out.println("Sorry, we're out of books right now!");
                 }
                 else
                 {
@@ -51,7 +51,7 @@ public class App
             else if (command.equals("exit"))
             {
                 shelf.saveToFile();
-                System.out.println("Goodbye!");
+                System.out.println("Goodbye! Bye");
                 break;
             }
             else
