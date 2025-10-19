@@ -38,7 +38,7 @@ public class App
                 books = shelf.showBooks();
                 if (books.isEmpty())
                 {
-                    System.out.println("Sorry, we're out of books right now!");
+                    System.out.println("Sorry, we're out of books right now! Get lost!");
                 }
                 else
                 {
